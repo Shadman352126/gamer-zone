@@ -13,6 +13,19 @@
   font-weight: 600;
   text-transform: uppercase;
 }
+.btn-primary {
+  color: #fff;
+  font-size: 1.25rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  display: inline-flex;
+  padding: 21px 40px;
+  align-items: flex-start;
+
+  border: none;
+  border-radius: 48px;
+  background: #ff42a5;
+}
 /* header nav */
 .nav {
   display: flex;
@@ -60,6 +73,7 @@
   height: 43.75rem;
 }
 .header-title {
+  background: url(../images/Group14.png) cover no-repeat;
   font-size: 6rem;
   font-weight: 800;
   text-transform: uppercase;
@@ -77,6 +91,23 @@
   text-transform: lowercase;
   margin-bottom: 15px;
 }
+.button {
+  display: flex;
+}
+.btn-secondery {
+  color: #fff;
+  font-size: 1.25rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  display: inline-flex;
+  padding: 21px 40px;
+  align-items: flex-start;
+
+  border: none;
+  border-radius: 48px;
+  background: #4ec5f7;
+  margin-left: 5px;
+}
 @media screen and (max-width: 576px) {
   .nav,
   .game-menu ul {
@@ -84,6 +115,7 @@
     width: 100%;
     gap: 10px;
   }
+
   .header {
     flex-direction: column;
   }
