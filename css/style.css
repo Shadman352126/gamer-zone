@@ -7,7 +7,7 @@
 .section-title {
   color: #0b0223;
   font-size: 3rem;
-  font-weight: 600;
+  font-weight: 700;
   text-transform: uppercase;
 }
 .universal-color {
@@ -139,6 +139,32 @@
 .gamer-group-image img {
   width: 700px;
 }
+.online-game {
+  margin: 60px 0px;
+  text-align: center;
+}
+.online-game-content p {
+  color: #534c64;
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+.online-game-card {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 50px 0px;
+}
+.online-game-card .card {
+  width: 260px;
+}
+.online-game-card .card img {
+  width: 250px;
+  height: 350px;
+}
+.online-game-card .card p {
+  color: #534c64;
+  font-size: 1.25rem;
+  font-weight: 400;
+}
 /* responsive */
 @media screen and (max-width: 576px) {
   .nav,
@@ -153,6 +179,14 @@
     flex-direction: column;
   }
   .gamer-group-image img {
+    width: 100%;
+  }
+  .online-game-card {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+  .online-game-card .card img {
     width: 100%;
   }
 }
